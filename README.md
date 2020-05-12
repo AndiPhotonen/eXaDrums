@@ -1,6 +1,6 @@
 # eXaDrums
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4a7bcd60718d460ab1597bcc7feb3b9b)](https://www.codacy.com/app/SpintroniK/eXaDrums?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpintroniK/eXaDrums&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4a7bcd60718d460ab1597bcc7feb3b9b)](https://www.codacy.com/app/AndiPhotonen/eXaDrums?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpintroniK/eXaDrums&amp;utm_campaign=Badge_Grade)
 
 ## Software drum module
 
@@ -20,7 +20,7 @@ Although eXaDrums is usable as a drum module, it is still an experimental projec
 *A screenshot of eXaDrums' user interface running on a Raspberry Pi.*
 
 This repository holds the official graphical user interface of the eXaDrums software.
-To use it, you will have to install [libeXaDrums](https://github.com/SpintroniK/libeXaDrums), and follow the instructions below.
+To use it, you will have to install [libeXaDrums](https://github.com/AndiPhotonen/libeXaDrums), and follow the instructions below.
 
 ## Table of content
 
@@ -44,8 +44,8 @@ If that does not work, there is another way to install official releases.
 Simply copy and paste the following lines in a terminal:
 
 ```shell
-wget https://github.com/SpintroniK/eXaDrums/releases/download/debian%2F0.4.1-1/libexadrums0_0.4.2-1_armhf.deb
-wget https://github.com/SpintroniK/eXaDrums/releases/download/debian%2F0.4.1-1/exadrums_0.4.1-1_armhf.deb
+wget https://github.com/AndiPhotonen/eXaDrums/releases/download/debian%2F0.4.1-1/libexadrums0_0.4.2-1_armhf.deb
+wget https://github.com/AndiPhotonen/eXaDrums/releases/download/debian%2F0.4.1-1/exadrums_0.4.1-1_armhf.deb
 ```
 
 These lines will download the packages for libexadrums and exadrums.
@@ -66,7 +66,7 @@ If you wish to use the latest versions, you can build the packages from the Gith
 
 ### Dependencies
 
-Exadrums depends on [libexadrums](https://github.com/SpintroniK/libeXaDrums), so make sure you have it installed first.
+Exadrums depends on [libexadrums](https://github.com/AndiPhotonen/libeXaDrums), so make sure you have it installed first.
 Both `libexadrums0` and `libexadrums-dev` packages need to be installed, as well as their dependencies:
 
 ```shell
@@ -90,7 +90,7 @@ You will also need to install git, so that you can clone this repository:
 
 ```shell
 sudo apt install git
-git clone https://github.com/SpintroniK/eXaDrums.git
+git clone https://github.com/AndiPhotonen/eXaDrums.git
 ```
 
 ### Building eXaDrums
